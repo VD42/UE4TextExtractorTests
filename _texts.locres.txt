@@ -1056,9 +1056,6 @@ RIGHT CLICK = Scan Anomaly
 =>[86936DCA49A5EB2F71CCB8B41DF89B24][3011266979]
 You found {R}.
 
-=>[SingleLangAllLevel_EN_US_Byblos][879176297]
-vo_bat_crltt_sp_attack_hhh_01_DefaultText
-
 =>[5A4B08F642FA5E4653D1E79DB1FA5D41][1347973680]
 I haven't seen Mr Bear, Callum.
 
@@ -22925,6 +22922,9 @@ Heave ho!
 
 =>[vo_bat_crltt_sp_attack_hhh_00_DefaultText][4287257806]
 And Chawwotte's the hewo!
+
+=>[vo_bat_crltt_sp_attack_hhh_01_DefaultText][282941533]
+Thwee, two, one⁠—!
 
 =>[vo_bat_crltt_sp_attack_hhh_02_DefaultText][637630564]
 Wain of fiwe!

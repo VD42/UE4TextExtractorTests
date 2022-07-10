@@ -27,6 +27,7 @@ EXTRACT_TO_LOCRES_TEST
 "SoundWave_1.uasset"
 "SpaceCombatTutorialSpeechBubbles.uexp"
 "Texture2D_1.uasset"
+"UMG_Dialog_pilotcustom_symple.uexp"
 "UserDefinedEnum_1.uasset"
 "V_P0003_V00_C10.uexp"
  
@@ -46,6 +47,7 @@ EXTRACT_TO_OLD_LOCRES_TEST
 "SoundWave_1.uasset"
 "SpaceCombatTutorialSpeechBubbles.uexp"
 "Texture2D_1.uasset"
+"UMG_Dialog_pilotcustom_symple.uexp"
 "UserDefinedEnum_1.uasset"
 "V_P0003_V00_C10.uexp"
  
@@ -65,6 +67,7 @@ EXTRACT_TO_TXT_TEST
 "SoundWave_1.uasset"
 "SpaceCombatTutorialSpeechBubbles.uexp"
 "Texture2D_1.uasset"
+"UMG_Dialog_pilotcustom_symple.uexp"
 "UserDefinedEnum_1.uasset"
 "V_P0003_V00_C10.uexp"
  

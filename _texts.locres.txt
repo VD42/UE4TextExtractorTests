@@ -26652,4 +26652,345 @@ I suppose Alma might have an idea. She was a trusted friend of my parents' after
 =>[TextBlockDefaultValue][2937330400]
 Text Block
 
+=>{st_Menus}
+
+=>[NewGame][829792470]
+New Game
+
+=>[ContinueGame][17983271]
+Continue
+
+=>[ExitToWindows][3788267502]
+Exit Game
+
+=>[Settings][1227968327]
+Graphics Settings
+
+=>[SettingsIntro][4230777572]
+Play with the settings below till you get your desired quality.
+
+=>[GraphicalQuality][717125681]
+Graphical Quality
+
+=>[PostProcessing][1368358060]
+Post Processing
+
+=>[AntiAliasing][116089879]
+Anti Aliasing
+
+=>[ShadowQuality][168768564]
+Shadow Quality
+
+=>[MaxFrameRate][1981938952]
+Max Frame Rate
+
+=>[Low][3906722628]
+LOW
+
+=>[Medium][2189217028]
+MEDIUM
+
+=>[High][1642337447]
+HIGH
+
+=>[Ultra][1944833795]
+ULTRA
+
+=>[Keybindings][1899038417]
+Settings and Bindings
+
+=>[KeyBindingsIntro][3413626185]
+Set your preferred key bindings for your gaming comfort. Click inside the box and press the Key you want to rebind to.
+
+=>[MoveForward][650789851]
+Move Forward
+
+=>[MoveBackward][894576882]
+Move Backward
+
+=>[MoveRight][1992704023]
+Move Right
+
+=>[MoveLeft][872775331]
+Move Left
+
+=>[Interact][3063103120]
+Interact
+
+=>[HunterVision][1677332495]
+Hunter Vision (Quick Press)
+
+=>[ToggleWeapon][537923223]
+Toggle Weapon
+
+=>[UsePotion][3031542340]
+UsePotion
+
+=>[Loading][1338394740]
+standby game is loading...
+
+=>[Resume][714268913]
+Resume
+
+=>[LoadLastSave][981246403]
+Load Last Save
+
+=>[showAdvanced][2836955008]
+Show Advanced Settings
+
+=>[hideAdvanced][794357055]
+Hide Advanced Settings
+
+=>[VerticalSync][3867559498]
+Vertical Sync?
+
+=>[ScreenMode][4179426902]
+FullScreen?
+
+=>[WRKSGamesPresents][646655000]
+W.R.K.S Games Presents
+
+=>[ScreenResolution][3098113132]
+Screen Resolution
+
+=>[WindowMode][3302694234]
+Window Mode
+
+=>[Gamma][852085236]
+Gamma
+
+=>[ResolutionScale][2130580523]
+Resolution Scale
+
+=>[ViewDistance][2021020947]
+View Distance
+
+=>[TextureQuality][4102287593]
+Texture Quality
+
+=>[EffectsQuality][1623024565]
+Effects Quality
+
+=>[ResetToDefaultKeys][1775499570]
+Reset to Default
+
+=>[Reset][3873392340]
+Reset Keybindings
+
+=>[Setting][1794179120]
+Menu and Settings
+
+=>[MouseKeyboard][1428727794]
+Keyboard
+
+=>[Gamepad][3861595574]
+Gamepad
+
+=>[FoliageQuality][1546316345]
+Foliage Quality
+
+=>[Crawl][1941688548]
+Crouch
+
+=>[Journal][3364382632]
+Journal
+
+=>[BasicAttack][3668773047]
+Basic Attack
+
+=>[Spell1][1438334970]
+Spell 1
+
+=>[Spell2][1192136724]
+Spell 2
+
+=>[Spell3][4289918833]
+Spell 3
+
+=>[Spell4][1650839496]
+Spell 4
+
+=>[ResetTo][1341107371]
+Reset To
+
+=>[Default][940523119]
+Default
+
+=>[GamingTip][1243733784]
+Gaming Tip
+
+=>[FastTravel][1849471065]
+Fast Travel Locations
+
+=>[TimeOfDay][1551523704]
+Time of Day
+
+=>[SwitchTimeofDay][3998378063]
+Switch Time of Day
+
+=>[AssignSkils][3400716532]
+Launch Skills Manager
+
+=>[AssignSkillsTitle][3881566164]
+Manage Skills
+
+=>[AreaMap][1787223455]
+Area Map
+
+=>[Sprint][2197521897]
+Toggle Walk (Hold)
+
+=>[Aim][467649328]
+Aim (Press and Hold)
+
+=>[CollectiblesName][2436310049]
+Mysteries and Lore
+
+=>[CollectiblesCTA][3064445389]
+Click on a discovered item above to read more about it.
+
+=>[Lore][3719040194]
+Lore
+
+=>[Recipes][1682897443]
+Recipes
+
+=>[Tutorials][2210848957]
+Tutorials
+
+=>[Alternate][3973282797]
+Alternate
+
+=>[InputSensitivity][3106242999]
+Mouse / Controller Sensitivity
+
+=>[Icons][3792477242]
+Controller Icon Preference
+
+=>[VolumeMusic][3360614701]
+Music Volume
+
+=>[VolmeEffects][1764813162]
+Effects Volume
+
+=>[VolumeVoice][134081896]
+Voice Volume
+
+=>[ComingSoon][2478820406]
+This Section Opening In the Next Chapter in September
+
+=>[Quests][3729207845]
+Quests
+
+=>[Inventory][3005750574]
+Inventory
+
+=>[campVallentunaRoad][106473612]
+Vallentuna Road
+
+=>[campVallentunaTown][2157975968]
+Vallentuna Town
+
+=>[campVallentunaSouth][1595018162]
+Vallentuna South Road Inn
+
+=>[campVallentunaWest][4172414002]
+Vallentuna West
+
+=>[campVallentunaLighthouse][2042362722]
+Vallentuna Lighthouse
+
+=>[campVallentunaEast][2586893488]
+Vallentuna East
+
+=>[campGapingChasm][1396736385]
+The Gaping Chasm, Vallentuna East Road
+
+=>[campWatermill][1314964650]
+The Watermill by the East Road
+
+=>[cookFood][2848099395]
+Cook Food
+
+=>[cookingInstructions][2998313000]
+If you have the ingredients, you can cook food below.
+
+=>[MaxFPS][2819295149]
+Max FPS
+
+=>[MotionBlur][722460428]
+Motion Blur
+
+=>[Close][2131118629]
+Close
+
+=>[AutoDetect][1684545531]
+Auto Detect
+
+=>[GraphicsTips][1682458986]
+Tips: The EPIC settings are for RTX3080 and higher cards. Most should play the game in HIGH settings and if you are not getting 40fps or higher, lower Shadows and Foliage for the maximum effect. Resolution Scale should be used as a last resort.
+
+=>[campVerdantForestSouth][3098866046]
+Verdant Forest South
+
+=>[campVerdantForestCabin][3265647525]
+Verdant Forest Cabin
+
+=>[campVerdantForestNorth][3815234792]
+Verdant Forest Henge
+
+=>[languageSelection][1197012961]
+Select Language
+
+=>[Website][1074635301]
+Website
+
+=>[Store][3328065615]
+Store
+
+=>[InvertY][2978910659]
+Invert Y-Axis
+
+=>[ChooseYourDifficulty][2785085135]
+Choose Your Difficulty Level
+
+=>[DifficultyLevelDescription][1874678950]
+Choose wisely, this can only be done once per New Game and you will need to restart the game to choose a new difficulty level.
+
+=>[DifficultyStory][1030808330]
+Story Mode
+
+=>[DifficultyViking][1581842638]
+Viking Mode
+
+=>[DifficultyBerserker][3732821112]
+Beserker Mode
+
+=>[DifficultyStoryDescription][1469163842]
+This is the game in easy mode. Focus is on the story and narrative, combat is easy including the boss fights and only bow and spell combat at light level is implemented.
+
+=>[DifficultyVikingDescription][1906457903]
+This is how the game is meant to be played. All combat options are enabled, full crafting and skill and talent management is enabled and the game is challenging.
+
+=>[DifficultyBeserkerDescription][982637656]
+Not to be recommended unless you want a demanding experience. Bosses and enemies have additional health and abilities, Astrid is handicapped with less health.
+
+=>[ToggleWeaponDamage][1196623928]
+Toggle Weapon Damage
+
+=>[DodgeRoll][4074606394]
+Dodge Roll
+
+=>[SkinRegular][3253197060]
+Adventure Skin
+
+=>[SkinBeserker][1473852898]
+Beserker Skin
+
+=>[SkinWitch][2338454250]
+Witch Skin
+
+=>[PressAndHold][143237244]
+Press and Hold to Select Abilities
+
 =>{[END]}

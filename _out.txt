@@ -13,6 +13,7 @@ Use -old modifier for old-version locres file generation.
  
 EXTRACT_TO_LOCRES_TEST 
 "base\\01_ステージ2_0（歪んだ生態系：砂漠）_1.uasset"
+"base\\A_Demi_DemiRecruitPR_S.uasset"
 "base\\BoneWeightMaterial.uasset"
 "base\\CharacterDetailPanel.uasset"
 "base\\DataTable_1.uasset"
@@ -30,6 +31,7 @@ EXTRACT_TO_LOCRES_TEST
 "base\\SpaceCombatTutorialSpeechBubbles.uasset"
 "base\\st_Menus.uasset"
 "base\\Texture2D_1.uasset"
+"base\\UMG_Dialog_BodyColor.uasset"
 "base\\UMG_Dialog_pilotcustom_symple.uasset"
 "base\\UserDefinedEnum_1.uasset"
 "base\\V_P0003_V00_C10.uasset"
@@ -2377,6 +2379,7 @@ EXTRACT_TO_LOCRES_TEST
  
 EXTRACT_TO_OLD_LOCRES_TEST 
 "base\\01_ステージ2_0（歪んだ生態系：砂漠）_1.uasset"
+"base\\A_Demi_DemiRecruitPR_S.uasset"
 "base\\BoneWeightMaterial.uasset"
 "base\\CharacterDetailPanel.uasset"
 "base\\DataTable_1.uasset"
@@ -2394,6 +2397,7 @@ EXTRACT_TO_OLD_LOCRES_TEST
 "base\\SpaceCombatTutorialSpeechBubbles.uasset"
 "base\\st_Menus.uasset"
 "base\\Texture2D_1.uasset"
+"base\\UMG_Dialog_BodyColor.uasset"
 "base\\UMG_Dialog_pilotcustom_symple.uasset"
 "base\\UserDefinedEnum_1.uasset"
 "base\\V_P0003_V00_C10.uasset"
@@ -4741,6 +4745,7 @@ EXTRACT_TO_OLD_LOCRES_TEST
  
 EXTRACT_TO_TXT_TEST 
 "base\\01_ステージ2_0（歪んだ生態系：砂漠）_1.uasset"
+"base\\A_Demi_DemiRecruitPR_S.uasset"
 "base\\BoneWeightMaterial.uasset"
 "base\\CharacterDetailPanel.uasset"
 "base\\DataTable_1.uasset"
@@ -4758,6 +4763,7 @@ EXTRACT_TO_TXT_TEST
 "base\\SpaceCombatTutorialSpeechBubbles.uasset"
 "base\\st_Menus.uasset"
 "base\\Texture2D_1.uasset"
+"base\\UMG_Dialog_BodyColor.uasset"
 "base\\UMG_Dialog_pilotcustom_symple.uasset"
 "base\\UserDefinedEnum_1.uasset"
 "base\\V_P0003_V00_C10.uasset"

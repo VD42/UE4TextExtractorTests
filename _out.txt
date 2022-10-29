@@ -34,6 +34,7 @@ EXTRACT_TO_LOCRES_TEST
 "base\\UMG_Dialog_BodyColor.uasset"
 "base\\UMG_Dialog_pilotcustom_symple.uasset"
 "base\\UserDefinedEnum_1.uasset"
+"base\\VC_CF03_120_CS_CINE.umap"
 "base\\V_P0003_V00_C10.uasset"
 "regression\\1\\AllLangAllLevel_EN_US_Byblos.uasset"
 "regression\\1\\AltenaCastle_EN_US_Byblos.uasset"
@@ -2400,6 +2401,7 @@ EXTRACT_TO_OLD_LOCRES_TEST
 "base\\UMG_Dialog_BodyColor.uasset"
 "base\\UMG_Dialog_pilotcustom_symple.uasset"
 "base\\UserDefinedEnum_1.uasset"
+"base\\VC_CF03_120_CS_CINE.umap"
 "base\\V_P0003_V00_C10.uasset"
 "regression\\1\\AllLangAllLevel_EN_US_Byblos.uasset"
 "regression\\1\\AltenaCastle_EN_US_Byblos.uasset"
@@ -4766,6 +4768,7 @@ EXTRACT_TO_TXT_TEST
 "base\\UMG_Dialog_BodyColor.uasset"
 "base\\UMG_Dialog_pilotcustom_symple.uasset"
 "base\\UserDefinedEnum_1.uasset"
+"base\\VC_CF03_120_CS_CINE.umap"
 "base\\V_P0003_V00_C10.uasset"
 "regression\\1\\AllLangAllLevel_EN_US_Byblos.uasset"
 "regression\\1\\AltenaCastle_EN_US_Byblos.uasset"
@@ -7114,5 +7117,7 @@ CONVERT_LOCRES_TO_TXT_TEST
 CONVERT_OLD_LOCRES_TO_TXT_TEST 
  
 CONVERT_TXT_TO_LOCRES_TEST 
+DIFFERENCES! 
  
 CONVERT_TXT_TO_OLD_LOCRES_TEST 
+DIFFERENCES! 

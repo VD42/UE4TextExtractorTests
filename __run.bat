@@ -3,6 +3,8 @@ del /Q _texts.locres
 del /Q _texts.old.locres
 del /Q _texts.locres.txt
 del /Q _texts.old.locres.txt
+del /Q _texts.convert.locres
+del /Q _texts.convert.old.locres
 del /Q _out.txt
 
 echo EMPTY_TEST >> _out.txt

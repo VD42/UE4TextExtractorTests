@@ -14,21 +14,21 @@ echo EMPTY_TEST >> _out.txt
 
 echo. >> _out.txt
 echo EXTRACT_TO_LOCRES_TEST >> _out.txt
-..\x64\Release\UE4TextExtractor.exe . _texts.locres -raw-text-signatures=SnowfallScriptAsset >> _out.txt
+..\x64\Release\UE4TextExtractor.exe . _texts.locres -raw-text-signatures=SnowfallScriptAsset,LevelSequence >> _out.txt
 if errorlevel 1 (
     echo ERROR! >> _out.txt
 )
 
 echo. >> _out.txt
 echo EXTRACT_TO_OLD_LOCRES_TEST >> _out.txt
-..\x64\Release\UE4TextExtractor.exe . _texts.old.locres -old -raw-text-signatures=SnowfallScriptAsset >> _out.txt
+..\x64\Release\UE4TextExtractor.exe . _texts.old.locres -old -raw-text-signatures=SnowfallScriptAsset,LevelSequence >> _out.txt
 if errorlevel 1 (
     echo ERROR! >> _out.txt
 )
 
 echo. >> _out.txt
 echo EXTRACT_TO_TXT_TEST >> _out.txt
-..\x64\Release\UE4TextExtractor.exe . _texts.txt -raw-text-signatures=SnowfallScriptAsset >> _out.txt
+..\x64\Release\UE4TextExtractor.exe . _texts.txt -raw-text-signatures=SnowfallScriptAsset,LevelSequence >> _out.txt
 if errorlevel 1 (
     echo ERROR! >> _out.txt
 )

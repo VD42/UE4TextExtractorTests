@@ -1,5 +1,6 @@
 del /Q _texts.txt
 del /Q _texts_no_signatures.txt
+del /Q _texts_all_signatures.txt
 del /Q _texts_all_uexps.txt
 del /Q _texts.locres
 del /Q _texts.old.locres
@@ -36,6 +37,13 @@ if errorlevel 1 (
 echo. >> _out.txt
 echo EXTRACT_TO_TXT_NO_SIGNATURES_TEST >> _out.txt
 ..\x64\Release\UE4TextExtractor.exe . _texts_no_signatures.txt >> _out.txt
+if errorlevel 1 (
+    echo ERROR! >> _out.txt
+)
+
+echo. >> _out.txt
+echo EXTRACT_TO_TXT_NO_SIGNATURES_TEST >> _out.txt
+..\x64\Release\UE4TextExtractor.exe . _texts_all_signatures.txt -raw-text-signatures=all >> _out.txt
 if errorlevel 1 (
     echo ERROR! >> _out.txt
 )

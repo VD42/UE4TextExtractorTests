@@ -1,4 +1,5 @@
 del /Q _texts.txt
+del /Q _texts_src.txt
 del /Q _texts_no_signatures.txt
 del /Q _texts_all_signatures.txt
 del /Q _texts_all_uexps.txt
@@ -7,6 +8,7 @@ del /Q _texts.old.locres
 del /Q _texts.locres.txt
 del /Q _texts.old.locres.txt
 del /Q _texts.convert.locres
+del /Q _texts_src.convert.locres
 del /Q _texts.convert.old.locres
 del /Q _out.txt
 
@@ -30,6 +32,13 @@ if errorlevel 1 (
 echo. >> _out.txt
 echo EXTRACT_TO_TXT_TEST >> _out.txt
 ..\x64\Release\UE4TextExtractor.exe . _texts.txt -raw-text-signatures=SnowfallScriptAsset,LevelSequence >> _out.txt
+if errorlevel 1 (
+    echo ERROR! >> _out.txt
+)
+
+echo. >> _out.txt
+echo EXTRACT_TO_TXT_SRC_TEST >> _out.txt
+..\x64\Release\UE4TextExtractor.exe . _texts_src.txt -raw-text-signatures=SnowfallScriptAsset,LevelSequence -src >> _out.txt
 if errorlevel 1 (
     echo ERROR! >> _out.txt
 )
@@ -78,6 +87,14 @@ if errorlevel 1 (
     echo ERROR! >> _out.txt
 )
 comp _texts.locres _texts.convert.locres /M || echo DIFFERENCES! >> _out.txt
+
+echo. >> _out.txt
+echo CONVERT_TXT_SRC_TO_LOCRES_TEST >> _out.txt
+..\x64\Release\UE4TextExtractor.exe _texts_src.txt _texts_src.convert.locres >> _out.txt
+if errorlevel 1 (
+    echo ERROR! >> _out.txt
+)
+comp _texts.locres _texts_src.convert.locres /M || echo DIFFERENCES! >> _out.txt
 
 echo. >> _out.txt
 echo CONVERT_TXT_TO_OLD_LOCRES_TEST >> _out.txt

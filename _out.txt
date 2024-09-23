@@ -14,6 +14,11 @@ UE4TextExtractor.exe <path to texts.locres file> <path to texts.txt file>
 Example: UE4TextExtractor.exe "C:\MyGame\Content\Paks\texts.txt" "C:\MyGame\Content\Paks\texts.locres"
 
 Use -old modifier for old-version locres file generation.
+
+Add or replace all texts from one txt to another:
+UE4TextExtractor.exe <path to source_texts.txt file> <path to destination_texts.txt file>
+Example: UE4TextExtractor.exe "C:\MyGame\Content\Paks\en_texts.txt" "C:\MyGame\Content\Paks\cn_texts.txt"
+
  
 EXTRACT_TO_LOCRES_TEST 
 base\01_ステージ2_0（歪んだ生態系：砂漠）_1.uasset
@@ -16946,3 +16951,7 @@ CONVERT_TXT_TO_LOCRES_TEST
 CONVERT_TXT_SRC_TO_LOCRES_TEST 
  
 CONVERT_TXT_TO_OLD_LOCRES_TEST 
+ 
+MERGE_BASE_TEST 
+ 
+MERGE_REGRESSION_TEST 

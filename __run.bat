@@ -10,6 +10,8 @@ del /Q _texts.old.locres.txt
 del /Q _texts.convert.locres
 del /Q _texts_src.convert.locres
 del /Q _texts.convert.old.locres
+del /Q _merge_dst.txt
+del /Q _merge_dst_texts_all_to_no_signatures.txt
 del /Q _out.txt
 
 echo EMPTY_TEST >> _out.txt
@@ -103,3 +105,19 @@ if errorlevel 1 (
     echo ERROR! >> _out.txt
 )
 comp _texts.old.locres _texts.convert.old.locres /M || echo DIFFERENCES! >> _out.txt
+
+echo. >> _out.txt
+echo MERGE_BASE_TEST >> _out.txt
+copy merge\dst.txt _merge_dst.txt
+..\x64\Release\UE4TextExtractor.exe merge\src.txt _merge_dst.txt >> _out.txt
+if errorlevel 1 (
+    echo ERROR! >> _out.txt
+)
+
+echo. >> _out.txt
+echo MERGE_REGRESSION_TEST >> _out.txt
+copy _texts_no_signatures.txt _merge_dst_texts_all_to_no_signatures.txt
+..\x64\Release\UE4TextExtractor.exe _texts_all_signatures.txt _merge_dst_texts_all_to_no_signatures.txt >> _out.txt
+if errorlevel 1 (
+    echo ERROR! >> _out.txt
+)

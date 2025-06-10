@@ -41,6 +41,7 @@ base\SolarSystemGiddenis.umap
 base\SolarSystemZomni-Corp.umap
 base\SoundWave_1.uasset
 base\SpaceCombatTutorialSpeechBubbles.uasset
+base\STRING_TEMPLATE.uasset
 base\st_Menus.uasset
 base\Texture2D_1.uasset
 base\UMG_Dialog_BodyColor.uasset
@@ -2458,6 +2459,7 @@ base\SolarSystemGiddenis.umap
 base\SolarSystemZomni-Corp.umap
 base\SoundWave_1.uasset
 base\SpaceCombatTutorialSpeechBubbles.uasset
+base\STRING_TEMPLATE.uasset
 base\st_Menus.uasset
 base\Texture2D_1.uasset
 base\UMG_Dialog_BodyColor.uasset
@@ -4875,6 +4877,7 @@ base\SolarSystemGiddenis.umap
 base\SolarSystemZomni-Corp.umap
 base\SoundWave_1.uasset
 base\SpaceCombatTutorialSpeechBubbles.uasset
+base\STRING_TEMPLATE.uasset
 base\st_Menus.uasset
 base\Texture2D_1.uasset
 base\UMG_Dialog_BodyColor.uasset
@@ -7292,6 +7295,7 @@ base\SolarSystemGiddenis.umap
 base\SolarSystemZomni-Corp.umap
 base\SoundWave_1.uasset
 base\SpaceCombatTutorialSpeechBubbles.uasset
+base\STRING_TEMPLATE.uasset
 base\st_Menus.uasset
 base\Texture2D_1.uasset
 base\UMG_Dialog_BodyColor.uasset
@@ -9709,6 +9713,7 @@ base\SolarSystemGiddenis.umap
 base\SolarSystemZomni-Corp.umap
 base\SoundWave_1.uasset
 base\SpaceCombatTutorialSpeechBubbles.uasset
+base\STRING_TEMPLATE.uasset
 base\st_Menus.uasset
 base\Texture2D_1.uasset
 base\UMG_Dialog_BodyColor.uasset
@@ -12126,6 +12131,7 @@ base\SolarSystemGiddenis.umap
 base\SolarSystemZomni-Corp.umap
 base\SoundWave_1.uasset
 base\SpaceCombatTutorialSpeechBubbles.uasset
+base\STRING_TEMPLATE.uasset
 base\st_Menus.uasset
 base\Texture2D_1.uasset
 base\UMG_Dialog_BodyColor.uasset
@@ -14546,6 +14552,7 @@ base\SolarSystemZomni-Corp.umap
 base\SoundWave_1.uasset
 base\SpaceCombatTutorialSpeechBubbles.uasset
 base\SpaceCombatTutorialSpeechBubbles_duplicate_with_changes_for_all_uexps_test.uexp
+base\STRING_TEMPLATE.uasset
 base\st_Menus.uasset
 base\Texture2D_1.uasset
 base\UMG_Dialog_BodyColor.uasset

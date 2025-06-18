@@ -7,6 +7,7 @@ del /Q _texts.locres
 del /Q _texts.old.locres
 del /Q _texts.locres.txt
 del /Q _texts.old.locres.txt
+del /Q _texts.locres.v4.txt
 del /Q _texts.convert.locres
 del /Q _texts_src.convert.locres
 del /Q _texts.convert.old.locres
@@ -81,6 +82,13 @@ if errorlevel 1 (
     echo ERROR! >> _out.txt
 )
 comp _texts.txt _texts.old.locres.txt /M || echo DIFFERENCES! >> _out.txt
+
+echo. >> _out.txt
+echo CONVERT_V4_LOCRES_TO_TXT_TEST >> _out.txt
+..\x64\Release\UE4TextExtractor.exe locres\v4.locres _texts.locres.v4.txt >> _out.txt
+if errorlevel 1 (
+    echo ERROR! >> _out.txt
+)
 
 echo. >> _out.txt
 echo CONVERT_TXT_TO_LOCRES_TEST >> _out.txt

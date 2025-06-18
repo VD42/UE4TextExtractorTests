@@ -16954,7 +16954,7 @@ CONVERT_LOCRES_TO_TXT_TEST
 CONVERT_OLD_LOCRES_TO_TXT_TEST 
  
 CONVERT_V4_LOCRES_TO_TXT_TEST 
-ERROR: LocRes format too new!ERROR! 
+WARNING: LocRes version 4 is undocumented, may not work properly!
  
 CONVERT_TXT_TO_LOCRES_TEST 
  
